@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 *{
   margin: 0; 
   padding: 0;
@@ -9,7 +10,7 @@ body{
   background: linear-gradient(45deg,#FF6500,#1E3E62,#0B192C,#000000);
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: "Quicksand", sans-serif;
 }
 @keyframes color{
   0%{
