@@ -64,7 +64,7 @@ const Sec1 = () => {
 
   return (
     <div className='container'>
-        <h1>Quizz Game</h1>
+        <h1>Quiz Game</h1>
         <hr />
         {result?<>
             <h2>You Scored {score} out of {data.length}
