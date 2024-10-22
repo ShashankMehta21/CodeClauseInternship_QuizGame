@@ -11,14 +11,13 @@
     padding: 30px 40px;
 }
 .container h1{
-    width: 100%;
     margin: auto;
 }
 
 .container hr{
     height: 2px;
     border: none;
-    background: #707070;
+    background: #939090;
 }
 
 .container h2{
