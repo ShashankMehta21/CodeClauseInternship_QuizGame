@@ -1,0 +1,70 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 60px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.container h1{
+    width: 100%;
+    margin: auto;
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background-color: #127a1e;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.container button:hover{
+    background-color: rgb(68, 161, 24);
+    transition: all 0.4s;
+}
+
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+
+.Correct{
+    background-color: #43dc67;
+    border-color: #00d323b7;
+}
+.Wrong{
+    background-color: #ff4b4bc8;
+    border-color: #f22424;
+}

@@ -1,0 +1,24 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+body{
+  height:100vh;
+  width: 100%;
+  background: linear-gradient(45deg,#FF6500,#1E3E62,#0B192C,#000000);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
